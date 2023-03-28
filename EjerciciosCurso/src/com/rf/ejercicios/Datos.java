@@ -10,10 +10,10 @@ public class Datos {
 		
 		precio = 135.12;
 		
-		System.out.println("Dia/t" + dia);
-		System.out.println("DNI/t" + nDni);
-		System.out.println("Precio/t" + precio);
-		System.out.println("Activo?/t" + ACTIVO);
+		System.out.println("Dia\t" + dia);
+		System.out.println("DNI\t" + nDni);
+		System.out.println("Precio\t" + precio);
+		System.out.println("Activo?\t" + ACTIVO);
 
 
 	}
