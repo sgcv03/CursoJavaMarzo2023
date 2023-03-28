@@ -24,17 +24,12 @@ public class EjercicioOnceJava5 {
 	}
 
 	public static boolean esPrimo(int numero) {
-		int acumulador = 0;
-
-		for (int i = 1; i <= numero; i++) {
+		for (int i = 2; i < numero/2 ; i++) {
 			if (numero % i == 0) {
-				acumulador += 1;
+				return false;
 			}
 		}
 
-		if (acumulador == 2) {
-			return true;
-		}
-		return false;
+		return true;
 	}
 }
