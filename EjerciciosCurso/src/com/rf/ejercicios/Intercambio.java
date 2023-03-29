@@ -32,7 +32,7 @@ public class Intercambio<T> {
 
 	@Override
 	public String toString() {
-		return "Intercambio [elemento1=" + elemento1 + ", elemento2=" + elemento2 + "]";
+		return "Intercambio [elemento1=" + getElemento1() + ", elemento2=" + getElemento2() + "]";
 	}
 	
 	
