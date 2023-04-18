@@ -13,7 +13,7 @@ public class Main {
 		Credito tarjetaCredito = new Credito(miCuenta, "Tarjeta credito", "Sergio Garcia", null, 1000);
 		tarjetaCredito.ingresar(6000);
 		tarjetaCredito.retirar(2000);
-		tarjetaCredito.liquidar(03, 2023);
+		tarjetaCredito.liquidar(04, 2023);
 		System.out.println(miCuenta.toString());
 	}
 
